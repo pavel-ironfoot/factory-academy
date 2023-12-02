@@ -1,0 +1,26 @@
+.header-for-all {
+    position: fixed;
+    top: 20px;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid rgba(128, 128, 128, 0.548);
+    padding: 10px 80px 10px 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease; 
+
+    &.scrolled {
+        background-color: rgba(141, 124, 143, 0.788); 
+    }
+}
+.header-for-all__title-scanfil{
+    h1{
+        padding-top: 10px;
+        color: rgb(47, 0, 255);
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}

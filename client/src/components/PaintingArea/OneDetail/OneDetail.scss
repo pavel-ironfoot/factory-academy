@@ -1,0 +1,43 @@
+.one-detail{
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px 2px rgb(90, 90, 90);
+    display: flex;
+    div{
+        margin-right: 40px;
+        h1{
+            margin: 0px 0px 10px 0px;
+            font-size: 30px;
+            letter-spacing: 1px;
+            font-family:  sans-serif;
+            font-weight: 600;
+            span{
+                font-size: 20px;
+                letter-spacing: 1px;
+                font-family:  'OdibeeSans-Regular';
+                font-weight: 400; 
+            }
+        }
+        h3{
+            margin: 0px 0px 10px 0px;
+            font-size: 25px;
+            letter-spacing: 1px;
+            font-family:  sans-serif;
+            font-weight: 600;
+            span{
+                font-size: 20px;
+                letter-spacing: 1px;
+                font-family:  'OdibeeSans-Regular';
+                font-weight: 400; 
+            }
+        }
+    }
+    img{
+        width: 100px;
+        height: 70px;
+    }
+}
+.one-detail:hover{
+    background-color: rgba(188, 235, 247, 0.237);
+}

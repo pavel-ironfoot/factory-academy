@@ -1,0 +1,22 @@
+.one-area-card{
+    height: 400px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(13, 22, 22, 0.521);
+    // background-color: rgba(241, 243, 243, 0.521);
+    width: 230px;
+
+    h3{
+        font-size: 30px;
+        font-family:  'OdibeeSans-Regular';
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: rgb(206, 203, 203);
+        // color: rgb(46, 46, 46);
+        margin: 10px 0px;
+    }
+    img{
+        width: 170px;
+        height: 270px;
+    }
+}

@@ -1,0 +1,10 @@
+.detail-picture{
+    display: flex;
+    flex-wrap: wrap;
+    .detail-picture__one-picture{
+        display:block;
+        width: 400px;
+        margin: 15px;
+        cursor: pointer;
+    }
+}

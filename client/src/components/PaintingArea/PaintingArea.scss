@@ -1,0 +1,51 @@
+.painting-area {
+  min-width: 100vv;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  overflow: hidden;
+  background-image: url('./../../images/powder-main.jpg');
+  height: auto;
+  background-size: contain;
+  background-repeat: repeat-y;
+
+  .painting-area-main {
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 20px;
+
+    .painting-area-main-in {
+      display: flex;
+    }
+
+    .painting-area-main__header {
+      margin-left: 50px;
+      margin-top: 40px;
+
+      .painting-area-main__button-back {
+        border: 1px solid black;
+        cursor: pointer;
+        font-size: 25px;
+        font-family: 'OdibeeSans-Regular';
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding: 4px 10px;
+        background-color: transparent;
+        
+        &:hover{
+          background-color: rgb(151, 147, 147, 0.4);
+        }
+      }
+    }
+  }
+
+  opacity: 0;
+  animation: showPaintingArea 1s forwards;
+}
+
+
+@keyframes showPaintingArea {
+  to {
+    opacity: 1;
+  }
+}

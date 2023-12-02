@@ -1,0 +1,154 @@
+.detail-show-page {
+    width: 100vv;
+    min-height: 100vh;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('./../../../images/powder1.jpg');
+    height: auto;
+    background-size: cover;
+    background-repeat: repeat-y;
+
+    .detail-show-page__container {
+        padding: 20px;
+        padding-top: 120px;
+        width: 100vw;
+        min-height: 100vh;
+        background-color: rgba(255, 255, 255, 0.527);
+
+        .detail-show-page__container__header {
+            display: flex;
+            justify-content: space-between;
+
+            .detail-show-page__container__header-edit {
+                padding-right: 100px;
+            }
+        }
+
+        h1 {
+            margin: 0px 0px 10px 20px;
+            font-size: 30px;
+            letter-spacing: 1px;
+            font-family: sans-serif;
+            font-weight: 600;
+
+            span {
+                font-size: 20px;
+                letter-spacing: 1px;
+                font-family: 'OdibeeSans-Regular';
+                font-weight: 400;
+            }
+        }
+
+        h3 {
+            margin: 0px 0px 10px 20px;
+            font-size: 25px;
+            letter-spacing: 1px;
+            font-family: sans-serif;
+            font-weight: 600;
+
+            span {
+                font-size: 20px;
+                letter-spacing: 1px;
+                font-family: 'OdibeeSans-Regular';
+                font-weight: 400;
+            }
+        }
+
+        .detail-show-page__container-text-block {
+            margin-top: 20px;
+            border-top: 2px solid rgba(128, 128, 128, 0.548);
+            padding-top: 60px;
+            padding-bottom: 60px;
+
+            .detail-show-page__container-text-block__span {
+                font-size: 28px;
+                font-weight: 600;
+            }
+
+            .detail-show-page__container-text-block__span-cork {
+                border: 1px solid black;
+                margin-left: 5px;
+                cursor: pointer;
+                padding: 4px;
+                background-color: rgba(255, 255, 255, 0.377);
+                font-weight: 600;
+
+                &:hover {
+                    background-color: rgba(150, 148, 148, 0.377);
+                }
+            }
+
+            .detail-show-page__container-text-block__blow {
+                display: flex;
+                border-bottom: 2px solid rgba(128, 128, 128, 0.548);
+                padding: 20px 0px;
+                margin-bottom: 20px;
+
+                .detail-show-page__container-text-block__text-blow {
+                    width: 50%;
+                    margin-right: 10px;
+                    height: 80px;
+                    padding: 20px 20px 20px 0;
+                }
+
+                .detail-show-page__container-text-block__image-blow {
+                    width: 50%;
+                    padding: 20px;
+                    border-left: 2px solid rgba(128, 128, 128, 0.548);
+
+                    img {
+                        width: 80%;
+                    }
+                }
+            }
+
+            p {
+                margin-left: 40px;
+                padding: 10px 0px;
+                font-size: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 300;
+                height: 40px;
+            }
+        }
+
+        .detail-show-page__container__button {
+            margin: 0px 0px 20px 0;
+            padding: 4px 10px;
+            background-color: transparent;
+            font-size: 20px;
+            letter-spacing: 1px;
+            font-family: 'OdibeeSans-Regular';
+            font-weight: 400;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgb(151, 147, 147, 0.4);
+            }
+        }
+
+        .detail-show-footer {
+            min-height: 100px;
+            margin-top: 20px;
+            border-top: 2px solid rgba(128, 128, 128, 0.548);
+
+            h3 {
+                margin-top: 20px;
+                padding-left: 20px;
+                font-size: 25px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+            }
+
+            .detail-show-footer__arrow-switcher {
+                cursor: pointer;
+                display: flex;
+
+                .detail-show-footer__arrow-switcher__img {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}

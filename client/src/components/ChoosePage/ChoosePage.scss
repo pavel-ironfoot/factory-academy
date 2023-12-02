@@ -1,0 +1,29 @@
+.choose-page {
+    min-height: 100vh;
+    background-image: url('./../../images/future.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    padding-top: 150px;
+
+    h1{
+        color: white;
+        font-size: 30px;
+        font-family:  'OdibeeSans-Regular';
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        border-bottom: 4px solid rgba(128, 128, 128, 0.548);
+    }
+
+    .choose-page__main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
